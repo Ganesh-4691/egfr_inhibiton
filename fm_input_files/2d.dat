@@ -1,0 +1,17 @@
+d1: DISTANCE ATOMS=1668,5685
+
+tor: TORSION ATOMS=1657,1668,5684,5664
+METAD ...
+        ARG=d1,tor
+        SIGMA=0.01,0.05
+        HEIGHT=2.0
+        PACE=1
+        TEMP=300
+        BIASFACTOR=20
+        FILE=HILLS_P1
+        LABEl=metad
+...
+PRINT STRIDE=1 FILE=COLVAR ARG=d1,tor  # Output the bias values
+#
+
+
