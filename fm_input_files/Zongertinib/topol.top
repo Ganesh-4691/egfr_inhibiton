@@ -1,0 +1,21 @@
+#include "fnon.itp"
+#include "protein.itp"
+#ifdef POSRES
+#include "posre.itp"
+#endif
+#include "drug.itp"
+#ifdef POSRES
+#include "posre1.itp"
+#endif
+#include "tip3p.itp"
+#include "ions.itp"
+[ system ]
+; Name
+wild_ref in water
+
+[ molecules ]
+; Compound       #mols
+system1              1
+UNK                  1
+SOL         37481
+NA               9
