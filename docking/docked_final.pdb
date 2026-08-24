@@ -1,0 +1,87 @@
+HETATM    1 CL3  FMM A  91      14.793  32.506  43.868  1.00 34.74          Cl  
+HETATM    2  C1  FMM A  91      15.719  30.472  30.208  1.00 73.29           C  
+HETATM    3  S2  FMM A  91      16.908  31.325  29.209  1.00 75.43           S  
+HETATM    4  O3  FMM A  91      17.414  32.469  29.938  1.00 74.33           O  
+HETATM    5  O4  FMM A  91      16.278  31.770  27.987  1.00 74.26           O  
+HETATM    6  C5  FMM A  91      18.277  30.204  28.809  1.00 70.88           C  
+HETATM    7  C6  FMM A  91      18.746  29.493  30.084  1.00 65.50           C  
+HETATM    8  N7  FMM A  91      19.460  30.451  30.940  1.00 60.98           N  
+HETATM    9  C8  FMM A  91      19.939  29.769  32.146  1.00 53.94           C  
+HETATM   10  C9  FMM A  91      19.216  30.318  33.353  1.00 47.90           C  
+HETATM   11  C10 FMM A  91      19.794  30.443  34.565  1.00 44.99           C  
+HETATM   12  C11 FMM A  91      18.908  30.935  35.367  1.00 42.97           C  
+HETATM   13  C12 FMM A  91      17.750  31.119  34.653  1.00 40.70           C  
+HETATM   14  O13 FMM A  91      17.843  30.754  33.307  1.00 44.76           O  
+HETATM   15  C14 FMM A  91      16.515  31.632  35.251  1.00 38.14           C  
+HETATM   16  C15 FMM A  91      15.326  31.597  34.525  1.00 35.17           C  
+HETATM   17  C16 FMM A  91      14.175  32.107  35.075  1.00 34.68           C  
+HETATM   18  C17 FMM A  91      14.186  32.652  36.358  1.00 33.31           C  
+HETATM   19  N18 FMM A  91      13.021  33.161  36.895  1.00 32.08           N  
+HETATM   20  C19 FMM A  91      13.016  33.703  38.164  1.00 32.80           C  
+HETATM   21  N20 FMM A  91      14.177  33.741  38.908  1.00 33.06           N  
+HETATM   22  C21 FMM A  91      15.354  33.237  38.391  1.00 33.11           C  
+HETATM   23  N22 FMM A  91      16.529  33.276  39.141  1.00 33.98           N  
+HETATM   24  C23 FMM A  91      16.534  33.643  40.499  1.00 33.25           C  
+HETATM   25  C24 FMM A  91      17.344  34.693  40.936  1.00 31.98           C  
+HETATM   26  C25 FMM A  91      17.345  35.049  42.281  1.00 31.39           C  
+HETATM   27  C26 FMM A  91      16.542  34.356  43.179  1.00 32.78           C  
+HETATM   28  O27 FMM A  91      16.514  34.698  44.557  1.00 32.72           O  
+HETATM   29  C28 FMM A  91      17.140  35.956  44.847  1.00 34.20           C  
+HETATM   30  C29 FMM A  91      16.129  37.119  44.823  1.00 33.41           C  
+HETATM   31  C30 FMM A  91      16.556  38.393  45.126  1.00 32.49           C  
+HETATM   32  C31 FMM A  91      15.662  39.445  45.102  1.00 32.79           C  
+HETATM   33  C32 FMM A  91      14.342  39.223  44.773  1.00 32.60           C  
+HETATM   34  C33 FMM A  91      13.910  37.954  44.468  1.00 33.26           C  
+HETATM   35  C35 FMM A  91      14.795  36.897  44.492  1.00 33.74           C  
+HETATM   36  C36 FMM A  91      15.757  33.328  42.746  1.00 33.04           C  
+HETATM   37  C38 FMM A  91      15.742  32.962  41.418  1.00 32.28           C  
+HETATM   38  C39 FMM A  91      15.360  32.685  37.095  1.00 33.77           C  
+HETATM   39  C40 FMM A  91      16.528  32.177  36.552  1.00 34.65           C  
+HETATM   40  F34 FMM A  91      12.653  37.748  44.150  1.00 33.03           F  
+HETATM   41  H22 FMM A  91      17.402  33.034  38.696  1.00  0.00           H  
+HETATM   42  H72 FMM A  91      18.834  31.199  31.203  1.00  0.00           H  
+HETATM   43  H73 FMM A  91      20.247  30.832  30.436  1.00  0.00           H  
+CONECT    1   36
+CONECT    2    3
+CONECT    3    2    4    5    6
+CONECT    4    3
+CONECT    5    3
+CONECT    6    3    7
+CONECT    7    6    8
+CONECT    8    7   42   43    9
+CONECT    9    8   10
+CONECT   10    9   14   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   14   10   13
+CONECT   15   13   16   39
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19   38
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23   38
+CONECT   23   22   24   41
+CONECT   24   23   25   37
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28   36
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   29   31   35
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   32   34
+CONECT   34   33   35   40
+CONECT   35   30   34
+CONECT   36    1   27   37
+CONECT   37   24   36
+CONECT   38   18   22   39
+CONECT   39   15   38
+CONECT   40   34
+CONECT   41   23
+CONECT   42    8
+CONECT   43    8
+END
